@@ -23,13 +23,17 @@
 		  width:100%;
 		  min-width: 10%; 
 		  min-height: 10%;
+		  border-radius: 0.35em;
+		 border: solid 3px #efefef;
+		 border-radius: 5%;
 		}
 		#myBtn {
 			width: 200px;
 			font-size: 18px;
 			padding: 10px;
-			border: none;
-			background: #000;
+			border-radius: 0.35em;
+		border: solid 3px #efefef;
+			background: rgb(138, 132, 132);
 			color: #fff;
 			cursor: pointer;
 		}
@@ -69,7 +73,7 @@
 						<source src="video.mp4" type="video/mp4">
 					</video>
 					<ul class="actions">
-						<li><button class="button" onclick="myFunction()">Pause</button></li>
+						<li><button id = "myBtn" onclick="myFunction()">Pause</button></li>
 					</ul>
 					<!-- <button class="button" onclick="myFunction()">Pause</button> -->
 				</section>
