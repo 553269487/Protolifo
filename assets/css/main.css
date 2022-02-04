@@ -1774,7 +1774,7 @@ input, select, textarea {
 		margin-top: -2em;
 		line-height: 1.5em;
 		color: #ec9a16;
-		font-family: "Lucida Console", "Courier New", monospace;
+		font-weight:bold;
 
 	}
 	header h2 + p {
@@ -1802,8 +1802,8 @@ input, select, textarea {
 	}
 	header.major h1 {
 		font-size: 4.5em;
-		color: #bbb1b1;
-		font-family:Chalkduster, fantasy;
+		color: #353030;
+		font-weight:bolder;
 	}
 
 /* Form */
